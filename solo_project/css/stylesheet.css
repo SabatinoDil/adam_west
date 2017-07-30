@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+*{box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+
+/*mobile styles*/
+@media only screen and (max-width:400px){
+  body{
+    background-color:#81B29A /*Color green sheen*/
+  }
+}
+  
+
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 23px;
+  background-color:#737B8E; /*Slate Gray*/
+  background-repeat: no-repeat;
+  
+}
+
+.banner{
+  height: 275px;
+  width: 100%;
+  display:flex;
+  align-items: stretch;
+  justify-content: center;
+  background-size: cover;
+  background-color:#F3F8F5/*White Smoke*/
+  
+}
+
+.index-banner{
+  background-image:url(../images/adam_west.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+   
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  font-size:1.8rem;
+  text-decoration: none;
+}
+
+nav li{
+  width:33.33%;
+  text-align: center;    
+  border-left: none;
+}
+
+nav a:hover{ 
+  color:#DD5040;/*CarminePink*/
+  
+}
+
+nav a{
+  color:#000;
+  padding:8px;
+  transition-delay: .25s;
+  
+}
+
+.mainContenHeader{
+  text-align: center;
+  
+}
+
+.soloimg{
+    height: 225px;
+    width: 225px;
+    float:left;
+    shape-outside: circle(50%);
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.batlogo{
+  align-content: center;
+  float:left;
+  shape-outside: circle(50%);
+  border-radius: 50%;
+  
+}
+
+.bgimage{
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 231, .7)),url(../images/kapow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.adamwest{
+    height: 225px;
+    width: 225px;
+    float:left;
+    shape-outside: circle(50%);
+    border-radius: 50%;
+    border: 2px solid #000;
+
+}
+
+
+
+
+
+.col-3{
+
+  padding: 1rem;
+  margin: 1rem;
+  font-size:16px;
+  text-align: center;
+  
+}
+
+.col-3 a:hover{
+    color: #c65711;
+    
+}
+
+
+footer{
+  margin: 1rem;
+}
+
+footer p{
+  font-size:.9rem;
+  text-align:center;
+  
+}
